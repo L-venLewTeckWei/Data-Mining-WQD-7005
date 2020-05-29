@@ -30,4 +30,4 @@ for script in listScript:
             if txtDate != "" and txtClose != "":
                 DFStock = DFStock.append({"date":txtDate, "close":txtClose}, ignore_index=True)
         print(DFStock)
-        DFStock.to_csv(r'C:\Users\L-ven Lew\KLCI.csv',index = False)
+        DFStock.to_csv(r'C:\Users\L-ven Lew\KLCI.csv',index = True)
